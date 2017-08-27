@@ -1,0 +1,45 @@
+#Hide Any Drive
+##Step 1:
+Type **CMD** in Start menu search area and hit Enter to launch **Command Prompt**.
+You can also find the Command Prompt under Accessories category in Start menu. 
+In Windows 10 and 8.1, you can right-click on the Start button, and then click Command Prompt to open the same.
+
+##Step 2:
+In the Command Prompt, type **Diskpart** and hit enter key. 
+Click **Yes** if you are prompted with UAC (User Account Control) dialog-box.
+
+<img src="http://imgur.com/vcTggqy">
+
+##Step 3: 
+And then type **List Volume** and hit **enter** to see list of all drives.
+
+<img src="http://imgur.com/19le1fv">
+
+##Step 4: 
+Select the drive that you want to hide.
+To do this, type **Select Volume G **(here, G is the drive letter) or **Select Volume 8** (here 8 is the volume number)
+<img src="http://imgur.com/qfH38KK">
+
+<img src="http://imgur.com/YjwF02P">
+
+##Step 5:
+To hide a drive, type **Remove Letter G**. Here, **G** is the drive letter than you want to hide.
+
+<img src="http://imgur.com/VmDGIll">
+
+##Step 6: 
+You are done. Close the Command Prompt.
+
+#show the hidden drive
+##Step 1:
+Follow the procedure mentioned in step 1, 2, and 3 of Method 1.
+
+##Step 2: 
+Select the volume number for which you want to assign a drive letter and show in the explorer. 
+Type **Select Volume 8** (here, 8 is the volume number) and hit Enter key.
+
+##Step 3: 
+Once selected, type **Assign Letter G** and hit **Enter** key to see the drive in explorer
+(replace G with the drive letter that you have previously removed).
+
+<img src="http://imgur.com/rV7VXF5">
